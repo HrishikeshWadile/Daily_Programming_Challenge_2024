@@ -36,7 +36,7 @@ def postfix_evaluation(postfix_s):
 use_default = input("Do you want to use default values (2 1 + 3 *)? (y/n): ").strip().lower()
 
 if use_default == "n":
-    postfix = input("Enter the first number: ")
+    postfix = input("Enter the postfix string: ")
 else:
     postfix = "2 1 + 3 *"
 
